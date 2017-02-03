@@ -14,7 +14,7 @@ html {
   font-size: 1.125em; /* 18px */
   line-height: 1.06666em; /* 19.2 / 18 */
   font-family: Algerian, Charcoal, sans-serif;
-  color: #000066;
+  color: #000066; 
   background-image: url("banner.jpg");
   
 }
@@ -32,7 +32,7 @@ h2 {
 
 p {
   font-family: Calibri, Geneva, sans-serif;
-  background-color: #008000;
+  background-color: #008000; 
   color: white;
   padding: 0.3em;
   background-image: url("background.jpg");
@@ -45,3 +45,14 @@ p {
 
 
 /* ===== STATE STYLES ===== */
+
+@media screen and (min-width: 37.5em) {
+  #left {
+    width: 48%;
+    float: left;
+  }
+  #right {
+    width: 48%;
+    float: right;
+  }
+}
