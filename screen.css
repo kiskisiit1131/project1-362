@@ -14,7 +14,8 @@ html {
   font-size: 1.125em; /* 18px */
   line-height: 1.06666em; /* 19.2 / 18 */
   font-family: Algerian, Charcoal, sans-serif;
-  background-color: #ccffcc;
+  color: #000066;
+  background-image: url("banner.jpg");
   
 }
 
@@ -34,6 +35,7 @@ p {
   background-color: #008000;
   color: white;
   padding: 0.3em;
+  background-image: url("background.jpg");
 }
 
 /* ===== LAYOUT STYLES ===== */
