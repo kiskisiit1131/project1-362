@@ -1,21 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="nojs">
   <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no"/>
+    <link rel="stylesheet" media="screen" href="screen.css" />
     <title>Reboots Home Page</title>
   </head>
     <body>
+    <main>
       <h1>IIT Reboots</h1>
         <figure>
           <img src="logo.jpg" alt="Reboots Logo"/>
         </figure>
+          <section id = "left">
           <h2>About</h2>
             <p>The IIT Reboots are a co-ed outreach based a cappella group that volunteers to perform around the city of Chicago at places like 
             retirement homes or children's hospitals. I strongly believe that music is powerful enough to brighten someone's day and it has been 
             scientifically proven to have a variety of positive effects on people's brains. You don't need to have a background in music 
             to be in this group, just a huge passion for it and preferably a good ear (although any past musical experience is a huge plus). 
             If you love music and want to brighten the Chicago community one song at a time, then consider auditioning for the IIT Reboots!</p>
+          </section>
+          <section id = "right">
           <h2>Auditions</h2>
             <p>Auditions will be super simple. All you need to do is prepare 30 seconds of any song of your choice; it helps to pick a song that shows 
             off your range. If you are a beatboxer, please prepare a few beats that showcase your skills.
@@ -25,20 +30,41 @@
             It takes a lot of courage to sing in front of people, but conquering that fear is so important. Confidence is key, especially
             for a group like this where we will be singing to groups of people at a time. I will email information to anyone that's on the email list
             about audition dates for the fall semester once the days are finalized.</p>
+          </section>
+          <section id = "left">
           <h2>Rehearsals and Performances</h2>
             <p>Rehearsals will be one day during the week during the IIT lunch hour which is 12:50 PM - 1:45 PM. 
             Performances will be on Sundays, either morning or early to mid-afternoon. When the fall semester approaches, I will have decided on a 
             concrete rehearsal day and have performance days finalized as well. 
             I will send out emails to anyone that's on the email list with details on locations, transportation, times, 
             and any other pertinent information in regards to rehearsals and performances.</p>
+          </section>
+          <section id = "right">
           <h2>Questions</h2>
             <p>If you have any questions at all or have ideas for places we could perform at, 
             please feel free to email me at <a href="mailto:akiskis@hawk.iit.edu">akiskis@hawk.iit.edu.</a>
             I check my email daily so expect a quick response!</p>
+          </section>
+          <section id = "right">
           <h2>Email List</h2>
             <p>For information about auditions or upcoming performances, join our email list below!</p>
-              <footer>
-                <p>Copyright © Akvile Kiskis. All rights reserved.</p>
-              </footer>
+          <form method="get" action="#null">
+            <ol>
+              <li id="input-email">
+                <label>Email</label>
+                <input type="email" name="email" id="email" placeholder="you@example.com" pattern="^.+@.+$"/>
+              </li>        
+              <li id="input-submit">
+                <input type="submit" name="submit" id="submit" value="Submit"/>
+              </li>
+            </ol>
+          </form>
+          </section>
+            <footer>
+              <p>Copyright Akvile Kiskis. All rights reserved.</p>
+            </footer>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="site.js"></script>
     </body>
 </html>

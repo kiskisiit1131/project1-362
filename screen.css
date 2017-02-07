@@ -237,6 +237,15 @@ input[type = "submit"]{
 
 /* ===== STATE STYLES ===== */
 
+.hasjs input[type="submit"] {
+  position: absolute;
+  left: -6250em; /* -100000px */
+}
+
+.hasjs input[type="submit"].active {
+  position: static;
+}
+
 @media screen and (min-width: 37.5em) {
   #left {
     width: 48%;
