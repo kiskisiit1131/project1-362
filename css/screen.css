@@ -188,7 +188,7 @@ html {
   line-height: 1.06666em; /* 19.2 / 18 */
   font-family: Algerian, Charcoal, sans-serif;
   color: #000066; 
-  background-image: url("banner.jpg");
+  background-image: url("/images/background.jpg");
   
 }
 
@@ -208,7 +208,6 @@ p {
   background-color: #008000; 
   color: white;
   padding: 0.3em;
-  background-image: url("background.jpg");
 }
 /* Form */
 label, input {
@@ -221,7 +220,6 @@ label, input {
 
 input[type = "email"]{
   background-color: inherit;
-  color: white;
 }
 
 input[type = "submit"]{
@@ -251,8 +249,13 @@ input[type = "submit"]{
     width: 48%;
     float: left;
   }
-  #right {
-    width: 48%;
+  #right, #email-list {
+    width: 49%;
     float: right;
+  }
+ 
+  footer {
+    clear: both;
+
   }
 }
