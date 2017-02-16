@@ -187,7 +187,7 @@ html {
   font-size: 1.125em; /* 18px */
   line-height: 1.06666em; /* 19.2 / 18 */
   font-family: Algerian, Charcoal, sans-serif;
-  color: #000066; 
+  color: black; 
   background-image: url("/images/banner.jpg");
 }
 
@@ -233,6 +233,13 @@ input[type = "submit"]{
 
 /* ===== MODULAR STYLES ===== */
 
+img {
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto; 
+  padding: 0.5em;
+}
 
 /* ===== STATE STYLES ===== */
 
@@ -246,11 +253,11 @@ input[type = "submit"]{
 }
 
 @media screen and (min-width: 37.5em) {
-  #left {
+  #about, #rehearsals {
     width: 48%;
     float: left;
   }
-  #right, #email-list {
+  #auditions, #questions, #email-list {
     width: 49%;
     float: right;
   }
