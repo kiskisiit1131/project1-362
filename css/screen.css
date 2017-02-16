@@ -186,19 +186,13 @@ textarea {
 html {
   font-size: 1.125em; /* 18px */
   line-height: 1.06666em; /* 19.2 / 18 */
-  font-family: Algerian, Charcoal, sans-serif;
+  font-family: Century Gothic, sans-serif;
   color: black; 
   background-image: url("/images/banner.jpg");
 }
 
-h1 {
-  font-size: 1.802em; /* 32.437px */
-  padding: 0.5em 0.2em; 
-
-}
-
 h2 {
-  font-size: 1.424em; /* 25.629px */
+  font-size: 1.602em; /* 28.833pxpx */
   padding: 0.2em;
 
 }
@@ -209,6 +203,10 @@ p {
   color: white;
   padding: 0.3em;
   background-image: url("/images/background.jpg");
+}
+
+footer {
+    clear: both;
 }
 /* Form */
 label, input {
@@ -253,25 +251,12 @@ img {
 }
 
 @media screen and (min-width: 37.5em) {
-  #about, #rehearsals {
-    width: 48%;
-    float: left;
-  }
-  #auditions, #questions, #email-list {
-    width: 49%;
-    float: right;
-  }
-  
+ 
   html {
     background-image: url("/images/background.jpg");
   }
   
   p {
     background-image: none;
-  }
- 
-  footer {
-    clear: both;
-
   }
 }
