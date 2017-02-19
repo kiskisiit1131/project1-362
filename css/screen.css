@@ -195,7 +195,7 @@ html {
   line-height: 1.06666em; /* 19.2 / 18 */
   font-family: Century Gothic, sans-serif;
   color: black; 
-  background-image: url("images/banner.jpg");
+  background-image: url("../images/banner.jpg");
 }
 
 h2 {
