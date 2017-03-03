@@ -262,7 +262,7 @@ img {
   position: absolute;  
 }
 
-.active {
+.hasjs input[type="submit"].active {
   position: static;
 }
 
