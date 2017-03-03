@@ -218,7 +218,6 @@ p {
 label, input {
   box-sizing: border-box;
   display: block;
-  line-height: inherit;
   padding: 0.2em 0.1em;
 }
 
@@ -233,8 +232,7 @@ label {
 input[type = "email"]{
   background-color: inherit;
   color: #FFFFFF; /* fallback color */
-  color: rgba(255, 255, 255, 0.85);
-  padding: inherit;
+  color: rgba(255, 255, 255, 0.85);   
 }
 
 input[type = "submit"]{
